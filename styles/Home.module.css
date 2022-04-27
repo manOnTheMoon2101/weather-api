@@ -22,7 +22,7 @@
 .search{
   height: 40px;
   width: 30%;
-  border-radius: 5px;
+  
   border-bottom: 5px white solid;
   border-top: 0;
   border-right: 0;
@@ -88,7 +88,7 @@
 .card{
   border: 2px solid black;
   max-width: 300px;
-  max-height: 500px;
+  
   margin: auto;
   background-color: rgba(255, 255, 255, 0.479);
 
@@ -104,42 +104,44 @@
 
 .boX{
   background-color: rgb(249,167,153);
+  
   max-width: 300px;
   max-height: 200px;
 }
 
 .windBox{
-  position: relative;
-  max-width: 150px;
-  border-right: 2px solid black;
-  border-top: 2px solid black;
-  color: white;
-  font-weight: bold;
-
-}
-
-.degreeBox{
- margin: auto;
- position: relative;
- left: 2cm;
- top: -4.45cm;
- border-top: 2px solid black;
- 
-  max-width: 150px;
-  color: white;
-  font-weight: bold;
   
+  background-color: rgb(249,167,153);
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  color: white;
+  font-weight: bold;
+  width: 148px;
+  float: left;
+ 
 }
-
 .windT{
-  border-bottom: 3px solid rgb(0, 0, 0);
-
+  border-bottom: 2px solid black;
 }
 
 .desc p{
-  font-size: 20px;
- text-transform: uppercase;
-
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.degreeBox{
+  
+  background-color: rgb(249,167,153);
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  
+  border-right: 2px solid black;
+  color: white;
+  font-weight: bold;
+  width: 148px;
+  float: right;
+  
 }
 
 
@@ -148,15 +150,15 @@
   .search{
     height: 40px;
     width: 40%;
-    border-radius: 5px;
-    border-bottom: 5px white solid;
+ 
+    border-bottom: 2px white solid;
     border-top: 0;
     border-right: 0;
     border-left: 0;
     background-color: transparent;
     color: white;
     outline: none;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
     font-family: 'Annie Use Your Telescope', cursive;
    
